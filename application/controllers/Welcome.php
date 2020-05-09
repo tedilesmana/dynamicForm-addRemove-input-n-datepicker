@@ -12,6 +12,6 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
-		$this->template->template('upload_file');
+		$this->template->template('dynamic_form');
 	}
 }
